@@ -1,0 +1,240 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#fbfbfb",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#fef8f6",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#d1cfca",
+					"name": "Base / Three",
+					"slug": "base-3"
+				},
+				{
+					"color": "#171614",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#49463f",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#7a7569",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#e76127",
+					"name": "Accent / One Dark",
+					"slug": "accent"
+				},
+				{
+					"color": "#f0854c",
+					"name": "Accent / One Light",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#395b4e",
+					"name": "Accent / Two Dark",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#568a79",
+					"name": "Accent / Two Light",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#6361c8",
+					"name": "Accent / Three Dark",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#7b8dcc",
+					"name": "Accent / Three Light",
+					"slug": "accent-6"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+					"name": "System Sans-serif",
+					"slug": "system-sans-serif"
+				},
+				{
+					"fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+					"name": "System Serif",
+					"slug": "system-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZ_G18PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5zfJs-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6me5s-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8PZE_VNWoyQ.woff2"
+						}
+					],
+					"fontFamily": "\"Crimson Pro\", serif",
+					"name": "Crimson Pro",
+					"slug": "crimson-pro"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Gotham",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Bold.otf"
+						},
+						{
+							"fontFamily": "Gotham",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-BoldItalic.otf"
+						},
+						{
+							"fontFamily": "Gotham",
+							"fontStyle": "normal",
+							"fontWeight": "350",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Medium.otf"
+						},
+						{
+							"fontFamily": "Gotham",
+							"fontStyle": "italic",
+							"fontWeight": "350",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-MediumItalic.otf"
+						}
+					],
+					"fontFamily": "Gotham",
+					"name": "Gotham",
+					"slug": "gotham"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "20px"
+				}
+			},
+			"core/heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--gotham)"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--gotham)",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			}
+		},
+		"css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}\n",
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--accent)",
+					"text": "var(--wp--preset--color--base-2)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--gotham)",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"letterSpacing": "-1px"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"letterSpacing": "-1px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"textTransform": "uppercase"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "300",
+					"textTransform": "uppercase"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--gotham)",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent)"
+				},
+				"typography": {
+					"textDecoration": "underline"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--crimson-pro)"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+}
