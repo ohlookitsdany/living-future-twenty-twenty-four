@@ -1,8 +1,8 @@
 {
-	"name": "hamburger-menu",
+	"name": "outline-block",
 	"version": "0.1.0",
-	"description": "Places a menu icon that reveals a hidden section when clicked.",
-	"author": "Danielle Gonzalez",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {

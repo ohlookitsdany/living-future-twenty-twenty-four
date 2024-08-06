@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/outline-block",
+	"version": "0.1.0",
+	"title": "Outline Block",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Generates an outline of heading tags (H2 - H5) with anchor links for H2 tags.",
+	"example": {},
+	"supports": {
+                "color": {
+                        "background": true,
+                        "text": true
+                },
+                "html": false
+        },
+        "textdomain": "outline-block",
+        "editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+        "render": "file:./render.php",
+        "viewScript": "file:./view.js"
+}
