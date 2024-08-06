@@ -6,8 +6,11 @@
 	},
 	"devDependencies": {
 		"@wordpress/icons": "^10.3.0",
-		"@wordpress/scripts": "^28.3.0",
+		"@wordpress/scripts": "^19.2.4",
 		"path": "^0.12.7",
 		"webpack-remove-empty-scripts": "^1.0.4"
+	},
+	"dependencies": {
+		"@wordpress/interactivity": "^6.4.0"
 	}
 }

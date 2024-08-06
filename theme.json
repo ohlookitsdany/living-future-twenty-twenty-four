@@ -109,29 +109,59 @@
 				},
 				{
 					"fontFace": [
+                                                {
+                                                        "fontFamily": "Gotham",
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": "300",
+                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Light.otf"
+                                                },
+                                                {
+                                                        "fontFamily": "Gotham",
+                                                        "fontStyle": "italic",
+                                                        "fontWeight": "300",
+                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-LightItalic.otf"
+                                                },
 						{
 							"fontFamily": "Gotham",
 							"fontStyle": "normal",
+							"fontWeight": "350",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Book.otf"
+						},
+                                                {
+                                                        "fontFamily": "Gotham",
+                                                        "fontStyle": "italic",
+                                                        "fontWeight": "350",
+                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-BoookItalic.otf"
+                                                },
+                                                {
+                                                        "fontFamily": "Gotham",
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": "400",
+                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Medium.otf"
+                                                },
+						{
+							"fontFamily": "Gotham",
+							"fontStyle": "italic",
 							"fontWeight": "400",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-MediumItalic.otf"
+						},
+						{
+							"fontFamily": "Gotham",
+							"fontStyle": "normal",
+							"fontWeight": "600",
 							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Bold.otf"
 						},
-						{
-							"fontFamily": "Gotham",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-BoldItalic.otf"
-						},
+                                                {
+                                                        "fontFamily": "Gotham",
+                                                        "fontStyle": "italic",
+                                                        "fontWeight": "600",
+                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-BoldItalic.otf"
+                                                },
 						{
 							"fontFamily": "Gotham",
 							"fontStyle": "normal",
-							"fontWeight": "350",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Medium.otf"
-						},
-						{
-							"fontFamily": "Gotham",
-							"fontStyle": "italic",
-							"fontWeight": "350",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-MediumItalic.otf"
+							"fontWeight": "800",
+							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Black.otf"
 						}
 					],
 					"fontFamily": "Gotham",
@@ -236,5 +266,6 @@
 		}
 	},
 	"version": 2,
+	"patterns": [ "case-studies-card" ],
 	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
 }
