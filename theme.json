@@ -3,32 +3,32 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#fbfbfb",
-					"name": "Base",
-					"slug": "base"
+					"color": "#F5F3ED",
+					"name": "Base / One",
+					"slug": "base-1"
 				},
 				{
-					"color": "#fef8f6",
+					"color": "#FBFBFA",
 					"name": "Base / Two",
 					"slug": "base-2"
 				},
 				{
-					"color": "#d1cfca",
+					"color": "#E7E4DA",
 					"name": "Base / Three",
 					"slug": "base-3"
 				},
 				{
-					"color": "#171614",
+					"color": "#36332D",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#49463f",
+					"color": "#5C584F",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#7a7569",
+					"color": "#141311",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
@@ -61,6 +61,37 @@
 					"color": "#7b8dcc",
 					"name": "Accent / Three Light",
 					"slug": "accent-6"
+				},
+				{
+					"color": "#FDEADF",
+					"name": "Duotone / One",
+					"slug": "duotone-1"
+				},
+                                {
+                                        "color": "#DDE9E5",
+                                        "name": "Duotone / Two",
+                                        "slug": "duotone-2"
+                                },
+                                {
+                                        "color": "#EAEAF6",
+                                        "name": "Duotone / Three",
+                                        "slug": "duotone-3"
+                                }
+
+			]
+		},
+		"dimensions": {
+			"aspectRatio": true,
+			"aspectRatios": [
+				{
+					"name": "Ultra-wide - 2:1",
+					"slug": "2-1",
+					"ratio": "2/1"
+				},
+				{
+					"name": "Cinema - 21:9",
+					"slug": "21-9",
+					"ratio": "21/9"
 				}
 			]
 		},

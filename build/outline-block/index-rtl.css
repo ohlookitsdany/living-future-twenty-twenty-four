@@ -1,0 +1,28 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./blocks/outline-block/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.block-editor-block-list__block[data-type="custom/outline-block"] {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.outline-level-2 {
+  margin-right: 0;
+}
+
+.outline-level-3 {
+  margin-right: 20px;
+}
+
+.outline-level-4 {
+  margin-right: 40px;
+}
+
+.outline-level-5 {
+  margin-right: 60px;
+}

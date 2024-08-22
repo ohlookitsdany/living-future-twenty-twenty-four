@@ -1,0 +1,55 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./blocks/outline-block/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.outline-block {
+  font-size: var(--wp--preset--font-size--small);
+}
+
+.outline-block ul {
+  list-style: none;
+  padding-right: 0;
+}
+
+.outline-level-2 {
+  margin-right: 0;
+  font-family: var(--wp--preset--font-family--gotham);
+  font-size: var(--wp--preset--font-size--medium);
+}
+
+.outline-level-3 {
+  margin-right: 20px;
+}
+
+.outline-level-4 {
+  margin-right: 40px;
+}
+
+.outline-level-5 {
+  margin-right: 60px;
+}
+
+.custom-outline-block ul {
+  padding-right: 0;
+}
+
+.custom-outline-block .outline-level-2 {
+  margin-right: 0;
+}
+
+.custom-outline-block .outline-level-3 {
+  margin-right: 20px;
+}
+
+.custom-outline-block .outline-level-4 {
+  margin-right: 40px;
+}
+
+.custom-outline-block .outline-level-5 {
+  margin-right: 60px;
+}

@@ -64,6 +64,36 @@ const megaphone = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__
 
 /***/ }),
 
+/***/ "./node_modules/@wordpress/icons/build-module/library/pencil.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@wordpress/icons/build-module/library/pencil.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/primitives */ "@wordpress/primitives");
+/* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/**
+ * WordPress dependencies
+ */
+
+
+const pencil = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_0__.SVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24",
+  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_0__.Path, {
+    d: "m19 7-3-3-8.5 8.5-1 4 4-1L19 7Zm-7 11.5H5V20h7v-1.5Z"
+  })
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pencil);
+//# sourceMappingURL=pencil.js.map
+
+/***/ }),
+
 /***/ "./node_modules/@wordpress/icons/build-module/library/post.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@wordpress/icons/build-module/library/post.js ***!
@@ -455,7 +485,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/megaphone.js");
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/map-marker.js");
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/star-filled.js");
-/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/post.js");
+/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/pencil.js");
+/* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/post.js");
 
 
 
@@ -540,11 +571,35 @@ const clipboard = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createEleme
   example: {},
   isActive: blockAttributes => 'standard_dropdown' === blockAttributes?.metadata?.bindings?.content?.args?.key
 });
+(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.registerBlockVariation)('core/paragraph', {
+  name: 'themeslug/casestudies_typo',
+  title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Case Study Typology', 'themeslug'),
+  description: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Displays the case study typology.', 'themeslug'),
+  category: 'widgets',
+  keywords: ['case study', 'typology'],
+  icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_6__["default"],
+  scope: ['inserter'],
+  attributes: {
+    metadata: {
+      bindings: {
+        content: {
+          source: 'core/post-meta',
+          args: {
+            key: 'typo_dropdown'
+          }
+        }
+      }
+    },
+    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Typology', 'themeslug')
+  },
+  example: {},
+  isActive: blockAttributes => 'typo_dropdown' === blockAttributes?.metadata?.bindings?.content?.args?.key
+});
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.registerBlockVariation)('core/query', {
   name: 'themeslug/featured-case-studies',
   title: 'Featured Case Studies',
   description: 'Displays featured case studies for the program type.',
-  icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_6__["default"],
+  icon: _wordpress_icons__WEBPACK_IMPORTED_MODULE_7__["default"],
   attributes: {
     namespace: 'themeslug/featured-case-studies',
     query: {
@@ -564,12 +619,15 @@ const clipboard = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createEleme
         value: '1',
         compare: '='
       }]
+    },
+    displayLayout: {
+      type: 'flex',
+      columns: 3
     }
   },
   scope: ['inserter'],
   isActive: ['namespace'],
-  innerBlocks: [['core/post-template', {}, [['core/post-title'], ['core/post-excerpt']]
-  /*[ 'themeslug/case-studies-card' ],*/], ['core/query-pagination'], ['core/query-no-results']],
+  innerBlocks: [['core/post-template', {}, [['core/post-title'], ['core/post-excerpt']]], ['core/query-pagination'], ['core/query-no-results']],
   allowedControls: ['order', 'taxQuery']
 });
 
