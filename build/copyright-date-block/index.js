@@ -134,7 +134,7 @@ function save({
   }
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
     ..._wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps.save(),
-    children: [__('© '), displayDate, __(' International Living Future Institute. All rights reserved.')]
+    children: ['© ', displayDate, ' International Living Future Institute. All rights reserved.']
   });
 }
 
@@ -279,6 +279,8 @@ module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/tru
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
 /*!**********************************************!*\
   !*** ./blocks/copyright-date-block/index.js ***!
   \**********************************************/
@@ -327,6 +329,8 @@ const calendarIcon = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_
   edit: _edit__WEBPACK_IMPORTED_MODULE_1__["default"],
   save: _save__WEBPACK_IMPORTED_MODULE_3__["default"]
 });
+})();
+
 /******/ })()
 ;
 //# sourceMappingURL=index.js.map

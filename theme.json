@@ -1,4 +1,7 @@
 {
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+	"patterns": ["case-studies-card"],
 	"settings": {
 		"color": {
 			"palette": [
@@ -67,17 +70,16 @@
 					"name": "Duotone / One",
 					"slug": "duotone-1"
 				},
-                                {
-                                        "color": "#DDE9E5",
-                                        "name": "Duotone / Two",
-                                        "slug": "duotone-2"
-                                },
-                                {
-                                        "color": "#EAEAF6",
-                                        "name": "Duotone / Three",
-                                        "slug": "duotone-3"
-                                }
-
+				{
+					"color": "#DDE9E5",
+					"name": "Duotone / Two",
+					"slug": "duotone-2"
+				},
+				{
+					"color": "#EAEAF6",
+					"name": "Duotone / Three",
+					"slug": "duotone-3"
+				}
 			]
 		},
 		"dimensions": {
@@ -106,98 +108,6 @@
 					"fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
 					"name": "System Serif",
 					"slug": "system-serif"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "\"Crimson Pro\"",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZ_G18PZE_VNWoyQ.woff2"
-						},
-						{
-							"fontFamily": "\"Crimson Pro\"",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5zfJs-dtC4yZNE.woff2"
-						},
-						{
-							"fontFamily": "\"Crimson Pro\"",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6me5s-dtC4yZNE.woff2"
-						},
-						{
-							"fontFamily": "\"Crimson Pro\"",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8PZE_VNWoyQ.woff2"
-						}
-					],
-					"fontFamily": "\"Crimson Pro\", serif",
-					"name": "Crimson Pro",
-					"slug": "crimson-pro"
-				},
-				{
-					"fontFace": [
-                                                {
-                                                        "fontFamily": "Gotham",
-                                                        "fontStyle": "normal",
-                                                        "fontWeight": "300",
-                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Light.otf"
-                                                },
-                                                {
-                                                        "fontFamily": "Gotham",
-                                                        "fontStyle": "italic",
-                                                        "fontWeight": "300",
-                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-LightItalic.otf"
-                                                },
-						{
-							"fontFamily": "Gotham",
-							"fontStyle": "normal",
-							"fontWeight": "350",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Book.otf"
-						},
-                                                {
-                                                        "fontFamily": "Gotham",
-                                                        "fontStyle": "italic",
-                                                        "fontWeight": "350",
-                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-BoookItalic.otf"
-                                                },
-                                                {
-                                                        "fontFamily": "Gotham",
-                                                        "fontStyle": "normal",
-                                                        "fontWeight": "400",
-                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Medium.otf"
-                                                },
-						{
-							"fontFamily": "Gotham",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-MediumItalic.otf"
-						},
-						{
-							"fontFamily": "Gotham",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Bold.otf"
-						},
-                                                {
-                                                        "fontFamily": "Gotham",
-                                                        "fontStyle": "italic",
-                                                        "fontWeight": "600",
-                                                        "src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-BoldItalic.otf"
-                                                },
-						{
-							"fontFamily": "Gotham",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": "https://dev.living-future.org/wp-content/uploads/fonts/Gotham-Black.otf"
-						}
-					],
-					"fontFamily": "Gotham",
-					"name": "Gotham",
-					"slug": "gotham"
 				}
 			]
 		}
@@ -209,14 +119,8 @@
 					"radius": "20px"
 				}
 			},
-			"core/heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gotham)"
-				}
-			},
 			"core/navigation": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gotham)",
 					"fontStyle": "normal",
 					"fontWeight": "400"
 				}
@@ -230,7 +134,6 @@
 					"text": "var(--wp--preset--color--base-2)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gotham)",
 					"fontStyle": "normal",
 					"fontWeight": "400"
 				}
@@ -278,7 +181,6 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--gotham)",
 					"fontStyle": "normal",
 					"fontWeight": "400"
 				}
@@ -291,12 +193,7 @@
 					"textDecoration": "underline"
 				}
 			}
-		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--crimson-pro)"
 		}
-	},
-	"version": 2,
-	"patterns": [ "case-studies-card" ],
-	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+	}
 }
+
